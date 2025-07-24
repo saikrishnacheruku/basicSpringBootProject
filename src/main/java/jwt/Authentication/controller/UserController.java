@@ -9,7 +9,7 @@ public class UserController {
 
     @GetMapping({"/"})
     public String getMessage(){
-        return "Welcome to  screen ";
+        return "Welcome to  screen of my jenkins ";
     }
 
     @GetMapping({"/admin"})
