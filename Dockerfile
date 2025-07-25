@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17
 WORKDIR /usr/app
 COPY target/basicSpringBootProject.jar /usr/app/
 EXPOSE 8080
